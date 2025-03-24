@@ -21,7 +21,7 @@ const About = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.3, duration: 1 }}
       >
-        Hi, I'm a passionate Full-Stack Developer and Software Engineer** who loves building  
+        Hi, I'm a passionate Full-Stack Developer and Software Engineer who loves building  
         intuitive, user-friendly, and scalable applications. I specialize in front-end development  
         and enjoy crafting beautiful and responsive user interfaces. 🚀
       </motion.p>
