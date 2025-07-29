@@ -2,6 +2,8 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://hayzedid.github.io/my-portfolio",
+  "description": "A personal portfolio website showcasing my projects and skills.",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
     "@tailwindcss/postcss7-compat": "^2.2.17",
@@ -12,11 +14,13 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.3.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
